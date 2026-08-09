@@ -1,3 +1,12 @@
+//TimeTasker : You should write code here not in the timer.
+
+//You mean if I don't write timer.cancel, the compiler will give me infinite output?
+
+******************************************************************************************************************
+
+TimerTask : WHAT to execute
+Timer : WHEN to execute
+
 import java.util.Timer;
 import java.util.TimerTask;
 
