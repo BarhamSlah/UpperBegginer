@@ -1,8 +1,13 @@
+Constructor: Sets the initial values when the object is created.
+
+        Getters: Read/retrieve those values.
+
+        Setters: Only added if you explicitly need to change/update those values later in your program.
+********************************************************************************
 public class Main {
     public static void main(String[] args) {
 
         Car car = new Car(18_300,2012, "Toyota-Hiluix");
-
 
         /*
         car.model = 2026;  now the model is 2026 not 2013
@@ -70,3 +75,42 @@ this.name = name;
     }
 }
 ***************************************************************************************************************************
+
+void main() {
+
+    Car<Double , String  , Integer > car1 = new Car<>(18300.0 , "Hiluix" , 2013);
+    Car<Double  , String , Integer> car2 = new Car<>(10500.0 , "Kicks" , 2022);
+
+    System.out.println(car1.getModel() + " " +  car1.getYear() + " is costs " + car1.getPrice());
+    System.out.println(car2.getModel() + " " +  car2.getYear() + " is costs " + car2.getPrice());
+
+}
+
+////////////////
+
+public class Car<T , U  , V>{
+
+    T price;
+    U model;
+    V year;
+
+    Car(T price , U model , V year){
+        this.price = price;
+        this.model = model;
+        this.year = year;
+    }
+
+    public T getPrice(){
+        return this.price = price;
+    }
+
+    public U getModel(){
+        return this.model = model;
+    }
+
+    public V getYear(){
+        return this.year = year;
+    }
+
+}
+**********************************************************************************
