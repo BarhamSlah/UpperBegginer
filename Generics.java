@@ -1,3 +1,5 @@
+Generics ; is a feature in Java
+
 1. Code Reusability (Write Once, Use Many Times)
 Instead of creating separate classes for every data type (like IntegerBox, StringBox, DoubleBox),
 you write one generic class using a type parameter like <T>.
