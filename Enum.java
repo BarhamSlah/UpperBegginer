@@ -1,0 +1,1 @@
+// Enum : is short for enumeration & special class & use with switch statement
