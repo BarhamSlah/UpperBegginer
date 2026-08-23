@@ -1,6 +1,6 @@
 # UpperBegginer
 
-A organized collection of Java programming projects, exercises, and core Object-Oriented Programming (OOP) practice applications designed to bridge the gap between basic syntax and intermediate software engineering concepts.
+An organized collection of Java programming projects, exercises, and core Object-Oriented Programming (OOP) practice applications designed to bridge the gap between basic syntax and intermediate software engineering concepts.
 
 ## 📌 Repository Overview
 
@@ -15,6 +15,8 @@ This repository tracks hands-on practice projects focused on building solid Java
   - Polymorphism
   - Composition & Class Relationships
 - **Advanced Core Concepts:** Generics, Anonymous Classes, Enums, File I/O (`BufferedReader`, `FileWriter`), and basic Multithreading.
+
+---
 
 ## 🛠️ Tech Stack & Tools
 
