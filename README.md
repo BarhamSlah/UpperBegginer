@@ -1,34 +1,37 @@
 # Upper Beginner Java Projects
 
-A structured collection of core Java applications and practice projects tracking the transition from fundamental programming to intermediate Object-Oriented Design, Concurrency, and File Handling.
+A collection of core Java applications and practice projects focused on Object-Oriented Programming (OOP) concepts, multi-threading, file I/O, and interactive console logic.
 
 ---
 
-## 📌 Projects Overview
+## 📌 Projects Included
 
-| Project | Description | Core Java Concepts Used |
-| :--- | :--- | :--- |
-| **Timed Countdown Game** | Console input game with background timer | Multithreading, `Runnable`, Daemon Threads |
-| **Penalty Shootout Game** | Accuracy-based penalty mechanics | Object-Oriented Design, File I/O score logging |
-| **Slot Machine Game** | Random symbol generator with payout calculation | Execution delays (`Thread.sleep`), Input Validation |
-| **Multiple-Choice Quiz** | Interactive knowledge test | Parallel arrays, Loop control structures |
-| **Rock-Paper-Scissors** | Classic console decision game | State generation, Input sanitization |
-| **ASCII Dice Roller** | Visual dice simulator | Multi-dimensional output, String formatting |
+| Project | Key Concepts & Features |
+| :--- | :--- |
+| **Timed Countdown Game** | Multi-threading, `Runnable`, Daemon Threads, `Scanner` input validation |
+| **Penalty Shootout Game** | Power meter dynamics, custom player statistics, File I/O score tracking |
+| **Slot Machine Simulation** | Thread execution delays (`Thread.sleep`), emoji processing, random payouts |
+| **Multiple-Choice Quiz App** | Synchronized parallel arrays, automated score evaluation |
+| **Rock-Paper-Scissors** | Input validation loops, conditional game logic, random state generation |
+| **ASCII Dice Roller** | Multi-dice visual rendering using string formatted ASCII art |
 
 ---
 
 ## 🛠️ Tech Stack & Tools
 
 * **Language:** Java (JDK 17+)
-* **Development Environment:** IntelliJ IDEA
+* **IDE:** IntelliJ IDEA
 * **Version Control:** Git & GitHub
 
 ---
 
-## 🚀 Quick Start Guide
+## 🚀 Getting Started
 
 ### Prerequisites
-Ensure you have the Java Development Kit (JDK 17 or higher) installed on your system.
+* Java Development Kit (JDK) 17 or higher installed.
 
-```bash
-java -version
+### Installation & Execution
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/BarhamSlah/UpperBegginer.git](https://github.com/BarhamSlah/UpperBegginer.git)
