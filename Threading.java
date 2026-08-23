@@ -1,3 +1,7 @@
+When you need two things to happen at the same time in your program (the screen displays something while
+a sound/music plays in the background or a countdown runs).
+
+**********************************************************************************************************************
 import java.util.Scanner;
 
 void main()  {
