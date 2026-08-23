@@ -16,19 +16,6 @@ This repository tracks hands-on practice projects focused on building solid Java
   - Composition & Class Relationships
 - **Advanced Core Concepts:** Generics, Anonymous Classes, Enums, File I/O (`BufferedReader`, `FileWriter`), and basic Multithreading.
 
----
-
-## 🚀 Projects Included
-
-| Project / Exercise | Description | Core Concepts Practiced |
-| :--- | :--- | :--- |
-| **Banking Simulation** | Console app simulating account creation, deposits, and withdrawals. | Encapsulation, Validation, Loop Controls |
-| **Quiz Application** | Interactive multiple-choice console quiz engine. | Arrays/Collections, User Input, Scoring Logic |
-| **Slot Machine / Mini Games** | Interactive terminal games featuring randomized outcomes and delays. | `Random`, Multithreading (`Thread.sleep`), Logic |
-| **OOP Practice Modules** | Targeted exercises demonstrating object interaction, composition, and inheritance. | Composition, Polymorphism, Interfaces |
-
----
-
 ## 🛠️ Tech Stack & Tools
 
 - **Language:** Java (JDK 17+)
