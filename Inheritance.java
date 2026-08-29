@@ -1,3 +1,5 @@
+Dog is animal this is inheritance (is-a not has-a)
+
 SubClass = ChildClass  &  SuperClass = ParentClass
 
 lera ema basy Inheritance dakain :
