@@ -1,5 +1,14 @@
-   HERE I TALKED ABOUT CONSTRUCTOR THAT MEAN HOW TO WRITE ARGUMENT IN OBJECT 
-  
+   CONSTRUCTOR : 
+    
+   1- WE HAVE 2 TYPES OF CONSTRUCTOR : 1- DEFAULT CONSTRUCTOR  2- PARAMETERIZED CONSTRUCTOR 
+   2- JAVA CREATE DEFAULT CONSTRUCTOR AUTO   
+   3- YOU DON'T NEED TO WRITE DATATYPE
+   4- THE NAME OF COONSTRUCTOR SHOULD BE SAME WITH NAME OF CLASS 
+   5- WHEN YOU CREATE OBJECT IT AUTO CALLING CONSTRUCTOR
+   6- IF YOU DON'T CREATE OR CALL SET METHOD DEFAULT CONSTRUCTOR COMES INSTEAD 
+
+*************************************************************************************************************************************************     
+      
    public class Challenge {
    public static void main(String[] args) {
 
