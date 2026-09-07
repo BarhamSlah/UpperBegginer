@@ -1,3 +1,19 @@
+Single-Level Inheritance: A single child class inherits from a single parent class (e.g., AdvCalc extends Calc or B extends A).
+
+Multilevel Inheritance: A chain of inheritance where a child class inherits from a parent class, which itself inherits from
+another class (e.g., VeryAdvCalc extends AdvCalc, where AdvCalc already extends Calc).
+
+***************************************************************************************************************************
+   
+Multiple Inheritance (Not Supported for Classes in Java): A scenario where one child class attempts to directly inherit from
+multiple parent classes (e.g., C extends A, B). THIS IS CALLED ambiuigty Java Solves This Using Interfaces
+
+***************************************************************************************************************************
+
+   
+
+***************************************************************************************************************************
+      
 Dog is animal this is inheritance (is-a not has-a)
 
 SubClass = ChildClass  &  SuperClass = ParentClass
