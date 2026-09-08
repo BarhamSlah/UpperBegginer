@@ -14,4 +14,24 @@ means:
 Package = Folder 📁
 Class = File 📄
 
-  
+Package Declaration: You must declare the package at the top of the class file that belongs to it.
+
+Class Import: You must import the specific class from that package into any file that needs to use it.  
+
+import tools.*;
+Imports only the classes directly inside the tools package (e.g., Calc.java). It ignores any sub-folders or sub-packages within tools.
+
+import tools.extra.*;
+Imports only the classes inside the tools.extra sub-package (e.g., SuperCalc.java). It ignores the parent classes directly inside tools.
+
+Default Package Restriction:
+Classes written in the default/root package (without a package declaration) cannot be imported into any other package.
+
+src/
+├── Demo.java            <-- Default package (no package statement)
+└── tools/
+    ├── Calc.java        <-- In package 'tools'
+    └── extra/
+        └── SuperCalc.java <-- In package 'tools.extra'
+
+***********************************************************************************************************************************************
