@@ -16,6 +16,28 @@ write @methodoverriding before the method that you wanna overriding it
 
 ****************************************************************************************************************************  
 
+  public class Animal {
 
+    public void eat(){
+        System.out.println("part of animal are herbivore");
+    }
+}
 
+ public class Dog extends Animal {
+
+    @Override
+    public void eat(){
+        System.out.println("Dog is carnivore.");
+    }
+}
+
+void main()  {
+
+Animal animal = new Animal();
+Dog dog = new Dog();
+dog.eat();
+animal.eat();
+
+}
+ 
 **************************************************************************************************************************************
