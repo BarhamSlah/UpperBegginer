@@ -1,3 +1,11 @@
+Method Overriding
+Method Name: Must be same
+Parameter Data Types: Must be same
+Return Data Type: Must be same
+Action/Task: Different (modified in subclass)
+
+ *******************************************************************************************************************************
+
 Method Override: when you write a method in SubClass that already has in SuperClass but there is a different that is the task in the method
 but you should inheritance it and same name of method and should be same datatypes
 
