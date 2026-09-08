@@ -1,5 +1,5 @@
 Method Override: when you write a method in SubClass that already has in SuperClass but there is a different that is the task in the method
-but you should inheritance it and same name of method 
+but you should inheritance it and same name of method and should be same datatypes
 
 that is not necessarily but good if you do it :
 write @methodoverriding before the method that you wanna overriding it
@@ -29,8 +29,8 @@ I am talking about toString
  public static void main() {
 
 Person person1 = new Person ("Barham " , "Kurdistan" , "Student " , 18);
-Person person2 = new Person ("Mawsm" , "Kurdistan" , "Jobless" , 21);
-Person person3 = new Person ("Daiki Zain" , "Kurdistan" , "Uztaz" , 26);
+Person person2 = new Person ("Ahmad" , "Kurdistan" , "Jobless" , 21);
+Person person3 = new Person ("Akam " , "Kurdistan" , "Teacher" , 26);
 
 System.out.println(person1);  
 System.out.println(person2);
