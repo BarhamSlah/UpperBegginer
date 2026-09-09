@@ -1,8 +1,16 @@
-It should be different one of them : 
-1- Number of parameter.
-2- data type of parameter.
-3- sequence of parameter.
-This is method overloading when they have the same name of method.  
+Method Overloading = Static Polymorphism (Compile-Time Polymorphism)
+    
+Same method name but should be different ini one of three points :
+
+1- number of parameters.
+2- data types of parameters. 
+3- order/sequence of parameters.
+    
+Method Overloading → Does NOT require inheritance 
+
+It usually happens inside the same class.
+@Override?
+❌ There is no @Overloading annotation in Java.
 
 *********************************************************************************************************************************************
 
