@@ -4,7 +4,8 @@ Method Overloading = Static Polymorphism (Compile-time Polymorphism)
 Method Overriding = Dynamic Polymorphism (Runtime Polymorphism) 
     
 ***************************************************************************************************
-// I CREATED 3 SUBCLASS THAT HAS SAME ABSTRACT METHOD AS YOU KNOW ALL OF THEM HAS DIFFERENT OUTPUT
+THERE ARE 2 EXAMPLES OF METHOD OVERRIDING 
+    
 public class Main {
     public static void main(String[] args) {
 
@@ -54,8 +55,7 @@ public class Owl implements Bird {
 
 }
 *********************************************************************************************************************************  
- // THIS IS AN EXAMPLE OF DYNAMIC POLYMORPHISM
-
+ 
  import java.util.Scanner;
 
 public class Main {
