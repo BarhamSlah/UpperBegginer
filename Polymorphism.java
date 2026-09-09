@@ -1,8 +1,8 @@
 // WE HAVE 2 TYPES OF POLYPORPHISM
 
-1- STATIC POLYMORPHISM (COMPILE TIME) (METHOD OVERLOADING)
-
-2- DYNAMIC POLYMORPHISM (RUNTIME) (METHOD OVERRIDING)
+Method Overloading = Static Polymorphism (Compile-time Polymorphism) 
+Method Overriding = Dynamic Polymorphism (Runtime Polymorphism) 
+    
 ***************************************************************************************************
 // I CREATED 3 SUBCLASS THAT HAS SAME ABSTRACT METHOD AS YOU KNOW ALL OF THEM HAS DIFFERENT OUTPUT
 public class Main {
