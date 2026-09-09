@@ -35,3 +35,59 @@ src/
         └── SuperCalc.java <-- In package 'tools.extra'
 
 ***********************************************************************************************************************************************
+
+package Animals;
+
+public class Animal {
+
+    public static void noise() {
+       System.out.println("Animals make sound");
+    }
+}
+
+
+package Animals;
+
+ public class Cat extends Animal {
+  public void meow() {
+        System.out.println("Cat: Meow Meow!");
+    }
+}
+
+
+package Animals;
+
+public class Dog extends Animal {
+   public void bark() {
+        System.out.println("Dog: Woof Woof!");
+    }
+}
+
+
+package Animals;
+
+ public class Lion extends Animal {
+   public void roar() {
+        System.out.println("Lion: Roar!");
+    }
+}
+
+
+import Animals.*;
+
+        void main() {
+
+        Dog dog = new Dog();
+        Cat cat = new Cat();
+        Lion lion = new Lion();
+
+        Animal.noise();
+        // because Animal class was extended it is not unnecessary to create object for it
+        dog.bark();
+        cat.meow();
+        lion.roar();
+
+    }
+
+
+    
