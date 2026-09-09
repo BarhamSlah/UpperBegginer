@@ -18,12 +18,7 @@ public class Main {
             bird.fly();
         }
       
-      // THIS IS INSTEAD YOU WRITE MANY TIME OF 
-      // falcon.fly();
-      //cocktail.fly();
-      //owl.fly();
-      
-    }
+      }
     }
 //////////////////////
 public interface Bird {
