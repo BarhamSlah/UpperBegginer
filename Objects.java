@@ -8,5 +8,12 @@ WE HAVE 2 TYPES OF OBJECT :
 2- It exists in heap memory only for the duration of the statement in which it is instantiated,
 3- after which it becomes immediately eligible for Garbage Collection.
 
+Every class in java extend Object class even we don't mention.  
+
 You don't have to use anonymous objects. They are useful only when you need an object once. 
-It's clearer and easier to understand. when you become pro in java you can use it
+It's clearer and easier to understand. when you become pro in java you can use it.
+
+  
+Animal animal = new Dog();   // it creates objects for Dog class not for Animal class (UPCASTING)
+animal.sound();  
+  
