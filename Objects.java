@@ -16,4 +16,19 @@ It's clearer and easier to understand. when you become pro in java you can use i
   
 Animal animal = new Dog();   // it creates objects for Dog class not for Animal class (UPCASTING)
 animal.sound();  
+
+
+Laptop laptop1 = new Laptop("Dell", 1000); // Memory Address A
+Laptop laptop2 = new Laptop("Dell", 1000); // Memory Address B
+
+// Reference comparison (==): checks memory locations
+System.out.println(laptop1 == laptop2); // false (Address A != Address B)
+
+// Value comparison (.equals()): checks field data
+System.out.println(laptop1.equals(laptop2)); // true ("Dell" == "Dell" and 1000 == 1000)
+
+
+If two objects are equal according to equals(), they should have the same hashCode().
+
+
   
