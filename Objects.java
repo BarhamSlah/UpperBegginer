@@ -27,8 +27,42 @@ System.out.println(laptop1 == laptop2); // false (Address A != Address B)
 // Value comparison (.equals()): checks field data
 System.out.println(laptop1.equals(laptop2)); // true ("Dell" == "Dell" and 1000 == 1000)
 
-
+*********************************************************************************************************************************************************************
+  
 If two objects are equal according to equals(), they should have the same hashCode().
 
+class Phone {
 
-  
+    String name;
+
+    Phone(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+
+        Phone other = (Phone) obj;
+
+        return this.name.equals(other.name);
+    }
+}
+
+
+///////////
+void main(){
+
+Phone phone1 = new Phone("Samsung");
+Phone phone2 = new Phone("Samsung");
+
+    if (phone1 == phone2) {
+        System.out.println("They are the same object");
+
+    } else if (phone1.equals(phone2)) {
+        System.out.println("They have the same data");
+
+    } else if (!phone1.equals(phone2)) {
+        System.out.println("They are different");
+    }
+
+}
