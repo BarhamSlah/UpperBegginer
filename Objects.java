@@ -66,3 +66,22 @@ Phone phone2 = new Phone("Samsung");
     }
 
 }
+
+*********************************************************************************************************************************************************************
+  
+🟢 1. Upcasting → when you need polymorphism
+Parent parent = new Child();
+
+Use it when you want to treat different child objects through the same parent type.
+
+🔵 2. Downcasting → when you have a Parent reference but need something specific from Child
+Child child = (Child) parent;
+
+For example, Child has a method that Parent doesn't have.
+
+⚠️ The object must actually be a Child.
+
+🟡 3. Direct instantiation → when you don't need polymorphism
+Child child = new Child();
+
+You directly use the specific object and its methods.
