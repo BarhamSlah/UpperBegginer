@@ -85,3 +85,37 @@ For example, Child has a method that Parent doesn't have.
 Child child = new Child();
 
 You directly use the specific object and its methods.
+
+WE CANN0T USE DOWNCASTING WITHOUT UPCASTING   
+
+*********************************************************************************************************************************************************************
+
+class Animal {
+
+    public void eat() {
+        System.out.println("Animal is eating");
+    }
+}
+
+class Dog extends Animal {
+
+    public void bark() {
+        System.out.println("Dog is barking");
+    }
+}
+
+void main(){
+
+    Animal animal = new Dog();
+    animal.eat();
+
+   // Why use Upcasting?
+   //  Because Animal has many types. It means polymorphism.
+
+    Dog dog = (Dog) animal;
+    dog.bark();
+
+   //  Why use Downcasting?
+   //  Because only Dog can bark.
+    
+}
