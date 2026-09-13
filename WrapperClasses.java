@@ -1,11 +1,17 @@
-// Autoboxing
-       Integer a = 123;
-       Double b = 3.14;
-       Character c = '$';
-       Boolean d = true;
+int num = 7; 
 
-       // Unboxing
-       boolean x = d;
+Boxing (Explicit)
+Integer num1 = Integer.valueOf(num); 
+
+Autoboxing (Automatic)
+Integer num2 = num;
+
+String priceStr = "150";
+int price = Integer.parseInt(priceStr);
+
+// Now you can safely perform arithmetic
+int total = price + 50; // Output: 200
+
 
        // to convert Primitives datatype to String
        String e = Integer.toString(123);
