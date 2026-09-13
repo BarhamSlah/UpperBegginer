@@ -1,16 +1,14 @@
-int num = 7; 
+Boxing (Manual vs. Automatic):
 
-Boxing (Explicit)
-Integer num1 = Integer.valueOf(num); 
+Explicit Boxing: Integer obj = Integer.valueOf(5);
 
-Autoboxing (Automatic)
-Integer num2 = num;
+Autoboxing: Integer obj = 5;
 
-String priceStr = "150";
-int price = Integer.parseInt(priceStr);
+Unboxing (Manual vs. Automatic):
 
-// Now you can safely perform arithmetic
-int total = price + 50; // Output: 200
+Explicit Unboxing: int num = obj.intValue();
+
+Auto-unboxing: int num = obj;
 
 
        // to convert Primitives datatype to String
