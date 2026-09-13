@@ -89,7 +89,8 @@ You directly use the specific object and its methods.
 WE CANN0T USE DOWNCASTING WITHOUT UPCASTING   
 
 *********************************************************************************************************************************************************************
-
+EXAMPLE OF UPCASTING AND DOWNCASTING
+  
 class Animal {
 
     public void eat() {
@@ -119,3 +120,19 @@ void main(){
    //  Because only Dog can bark.
     
 }
+
+*********************************************************************************************************************************************************************
+EXAMPLE OF DIRECT INSTATIATION
+  
+class BankAccount {
+    void deposit() {
+        System.out.println("Money deposited");
+    }
+}
+
+void main() {
+    BankAccount account = new BankAccount();
+    account.deposit();
+}
+
+*********************************************************************************************************************************************************************
