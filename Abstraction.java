@@ -1,3 +1,15 @@
+1- You can have abstract method only in abstract class.
+​2- You can not create object from abstract class.
+but you can reference object form abstract class.
+3- It is used when multiple classes share common features, but some behaviors should be implemented differently by their subclasses.
+​4- Abstract Class: Can contain all types of methods, except you cannot create objects from this class.
+​5- Non-Abstract Class: Can contain all methods, except abstract methods.
+6- Abstract methods have no body
+7- Normal class → must implement all inherited abstract methods.
+Abstract class → can leave abstract methods unfinished.
+
+***********************************************************************************************************************************************************
+
 Abstraction : is use to hide detail and display just the important things
 1 - You write something in SuperClass (what to do )
 2 - You write something in SubClass (how to do)
