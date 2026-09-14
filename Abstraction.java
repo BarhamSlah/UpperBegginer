@@ -1,13 +1,13 @@
 1- You can have abstract method only in abstract class.
 ​2- You can not create object from abstract class.
 but you can reference object form abstract class.
-3- It is used when multiple classes share common features, but some behaviors should be implemented differently by their subclasses.
+3- Abstract methods have no body
 ​4- Abstract Class: Can contain all types of methods, except you cannot create objects from this class.
 ​5- Non-Abstract Class: Can contain all methods, except abstract methods.
-6- Abstract methods have no body
-7- Normal class → must implement all inherited abstract methods.
+6- Normal class → must implement all inherited abstract methods.
 Abstract class → can leave abstract methods unfinished.
-
+7- It is used when multiple classes share common features, but some behaviors should be implemented differently by their subclasses
+  
 ***********************************************************************************************************************************************************
 
 Abstraction : is use to hide detail and display just the important things
@@ -21,55 +21,77 @@ Abstract Class: It can contain both regular methods (with code/body) and abstrac
 Interface: It is completely abstract: it contains only and exclusively abstract methods
 (without code/body) which the subclasses must write entirely by themselves.  
 
- // aw classay abstract dakre natwanre objecty le drwst bkret 
+  
 *******************************************************************************************************************************
+
+package Animals;
+
+abstract public class Animal {
+
+    abstract public void makeSound();
+
+    public static void eat() {
+        IO.println("All animal eat");
+    }
+}
+
+/////////
+
+package Animals;
+
+public class Dog extends Animal {
+
+    @Override
+    public void makeSound() {
+        IO.println("Dog is woofing");
+    }
+
+}
+
+///////////
+
+package Animals;
+
+public class Cat extends Animal {
+
+    @Override
+    public void makeSound() {
+        IO.println("Cat is meowing");
+    }
+
+}
+
+///////////
+
+package Animals;
+
+public class JellyFish extends Animal {
+
+    @Override
+    public void makeSound(){
+        IO.println("JellyFish has no sound");
+    }
+
+
+}
+
+/////////
+
+import Animals.*;
+
 public class Main {
-public static void main(String[] args) {
+public static void main() {
 
-Rectangle rectangle = new Rectangle(2, 7);
-Traingle traingle = new Traingle(3);
+    Animal[] animals = new Animal[3];
+    animals[0] = new Dog();
+    animals[1] = new Cat();
+    animals[2] = new JellyFish();
 
-        System.out.println("This is traingle area " + traingle.area());
-        System.out.println("This is rectangle area " + rectangle.area());
-    }
-}
+    Animal.eat();
 
-/////////////////////
-public abstract class Shape {
-
-    abstract double area();
-    // awa methody abstracta boya hichy teda nanwsret
-    // la subclass override dakret bo away har yakaw featurey xoy habet
-}
-////////////////////
-public class Rectangle extends Shape{
-
-    double length;
-    double width;
-
- Rectangle(double length , double  width){
-    this.length = length;
-    this.width = width;
-}
-
-    @Override
-    double area() {
-        return length * width;
-    }
-}
-////////////////////////////
-public class Traingle extends Shape{
-
-    double side;
-
-    Traingle(double side){
-        this.side = side;
-    }
-
-    @Override
-    double area(){
-      return side * side * side;
+    for (Animal eachAnimal : animals) {
+        eachAnimal.makeSound();
     }
 
 }
-///////////////////////////////
+}
