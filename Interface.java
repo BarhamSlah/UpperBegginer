@@ -1,19 +1,17 @@
-Interface very similiar to abstract class 
-  
-Interface : 
-  
-1-  In Interface you can write what to do not how to do 
-  
-2-  Subclass can have multiple Interface but not Superclass
+Use an interface when:
 
-3-  When you declare variable in interface you can't change value of it 
+1. Multiple classes should follow the same contract
+
+  
+Every method without body in interface is public abstract, and every variable in interface is public final static.
+
   
 *************************************************************************************
-Class to Class: Use extends (A class inherits from another class).
+Class to Class: Use extends . Single inheritance only (Max 1 class)
   
-Class to Interface: Use implements (A class fulfills the contract of an interface).
+Class to Interface: Use implements . Multiple inheritance allowed
   
-Interface to Interface: Use extends (An interface can expand upon another interface).
+Interface to Interface: Use extends . Multiple inheritance allowed
 **************************************************************************************
 // THIS IS A EXAMPLE OF INTERFACE
 
