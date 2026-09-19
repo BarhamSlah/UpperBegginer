@@ -7,71 +7,82 @@ Every method without body in interface is public abstract, and every variable in
 
   
 *************************************************************************************
+  
 Class to Class: Use extends . Single inheritance only (Max 1 class)
   
 Class to Interface: Use implements . Multiple inheritance allowed
   
 Interface to Interface: Use extends . Multiple inheritance allowed
+  
 **************************************************************************************
-// THIS IS A EXAMPLE OF INTERFACE
 
-public class Main {
-    public static void main(String[] args) {
+package WaysToPay;
 
-Dog dog = new Dog();
-Cat cat = new Cat();
-Mouse mouse = new Mouse();
+public interface Payment {
 
-dog.predator();
-cat.predator();
-cat.prey();
-mouse.prey();
-
-    }
-}
-//////////////////////  
- public interface Predator {
-
-    void predator();
-
-} 
-///////////////////////
-public interface Prey {
-
-    void prey();
+    void pay(double amount);
 
 }
-//////////////////////
-public class Dog implements Predator {
+
+//////////
+package WaysToPay;
+
+public class Card implements Payment {
 
     @Override
-    public void predator(){
-        System.out.println("The dog always predator");
+    public void pay(double amount) {
+      IO.println("Paying by Card " + amount +  "$");
     }
 
 }
-/////////////////////////
-public class Mouse implements Prey {
+/////////
+package WaysToPay;
+
+public class Cash implements Payment {
 
     @Override
-    public void prey(){
-        System.out.println("The mouse Always prey");
+    public void pay(double amount) {
+        IO.println("Paying by Cash " + amount +  "$");
     }
 
 }
-///////////////////////////
-public class Cat implements Predator , Prey{   // THIS IS AN EXAMPLE OF SUBCLASS CAN HAS MORE THAN ONE INTERFACE
+
+///////
+package WaysToPay;
+
+public class PayPal implements Payment {
 
     @Override
-    public void prey(){
-        System.out.println("The cat at here is prey");
-    }
-
-    @Override
-    public void predator(){
-        System.out.println("The cat at here is predator");
+    public void pay(double amount) {
+        IO.println("Paying by PayPal " + amount +  "$");
     }
 
 }
+///////
+import WaysToPay.Card;
+import WaysToPay.Cash;
+import WaysToPay.PayPal;
+import WaysToPay.Payment;
+
+void main (){
+
+Payment[] payments = new Payment[3];
+
+    payments[0] = new Cash();
+    payments[1] = new Card();
+    payments[2] = new PayPal();
+
+
+    double[] amounts = {1, 2, 3};
+
+   for(int i = 0; i < payments.length; i++){
+       payments[i].pay(amounts[i]);
+   }
+
+}
+
+**************************************************************************************************************************************************
+
+  
 *****************************************************************************************************************
  
