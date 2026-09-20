@@ -7,6 +7,16 @@ You have a fixed set of related values.
 An enum is similar to a class because it can have fields, methods, and constructors. However, an enum cannot extend another class or be extended by another class.
 It can implement one or more interfaces.
 
+Method and Purpose : 
+name()
+Returns the constant's name
+ordinal()
+Returns its position, starting from 0
+values()
+Returns all enum constants
+valueOf()
+Finds a constant by its exact name
+  
 ***********************************************************************************************************************************************************
   
  enum Day {
@@ -34,15 +44,21 @@ today → Variable
 Day.MONDAY → Enum constant
 */
 
-Method and Purpose : 
-name()
-Returns the constant's name
-ordinal()
-Returns its position, starting from 0
-values()
-Returns all enum constants
-valueOf()
-Finds a constant by its exact name
+
+  void main (){
+
+    Day today = Day.MONDAY;
+
+    IO.println(today);
+    IO.println(today.ordinal());
+    IO.println(today.name());
+    IO.println(Day.valueOf("MONDAY"));
+    
+    for (Day day : Day.values()) {
+        IO.println(day);
+    }
+
+} 
 
  ***********************************************************************************************************************************************************
 
