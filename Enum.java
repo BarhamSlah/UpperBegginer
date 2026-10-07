@@ -16,6 +16,19 @@ values()
 Returns all enum constants
 valueOf()
 Finds a constant by its exact name
+
+  
+An account status should not be:
+
+"banana"
+"hello"
+"something"
+
+It should be one of the valid statuses:
+
+ACTIVE
+BLOCKED
+CLOSED    
   
 ***********************************************************************************************************************************************************
   
