@@ -1,3 +1,13 @@
+1. Normal Interface
+Definition: An interface containing two or more abstract methods.
+
+2. Functional Interface (SAM - Single Abstract Method)
+Definition: An interface containing exactly one abstract method. 
+
+3. Marker Interface (Blank Interface)
+Definition: An interface that has no methods or fields (it is completely empty). 
+
+
 Use an interface when:
 
 1. Multiple classes should follow the same contract
