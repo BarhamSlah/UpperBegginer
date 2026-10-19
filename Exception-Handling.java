@@ -1,3 +1,7 @@
+Compile-time errors: Syntax mistakes that the compiler flags before your code ever runs. system.out.println  // System not system
+Logical errors: The program runs fine, but calculates the wrong answer (e.g., getting 5 instead of 4). // also call bugs
+Runtime errors: The code is written correctly and compiled fine, but it suddenly stops execution in the middle of running. // just like missing file and dividing by zero
+
 /*
       finally always execute
 
