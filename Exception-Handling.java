@@ -2,6 +2,22 @@ Compile-time errors: Syntax mistakes that the compiler flags before your code ev
 Logical errors: The program runs fine, but calculates the wrong answer (e.g., getting 5 instead of 4). // also call bugs
 Runtime errors: The code is written correctly and compiled fine, but it suddenly stops execution in the middle of running. // just like missing file and dividing by zero
 
+
+🚨 ArithmeticException: Triggered by illegal math operations, such as dividing an integer by zero (18 / 0).
+
+📦 ArrayIndexOutOfBoundsException: Triggered when trying to access an invalid array index (e.g., fetching index 5 on an array of length 5, where valid indices are 0–4).
+
+📭 NullPointerException: Triggered when performing an operation on an object reference that is null (e.g., calling .length() on a null string).
+
+🛡️ Exception: The parent class for all exceptions.    
+
+ try {
+    String str = null;
+    System.out.println(str.length());
+} catch (NullPointerException e) {
+    System.out.println("Error: Object is null!");
+}     
+
 /*
       finally always execute
 
