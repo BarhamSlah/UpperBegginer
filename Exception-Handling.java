@@ -91,7 +91,7 @@ void main() {
     } catch(ArithmeticException e){
          IO.println("This is default output and equal to 1");
     }catch (Exception e){
-        IO.println("The error " + e);
+        IO.println("The error " + e.getMessage());
     }
 
 }
