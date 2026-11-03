@@ -1,3 +1,13 @@
+What is a Thread? A thread is the smallest unit of execution inside a program or process. It allows a single software application to perform multiple operations at the same time.
+
+Multitasking vs. Multi-threading:
+
+Multitasking runs multiple separate software applications on your OS using CPU time-sharing.
+
+Multi-threading breaks down a single program into smaller parts so it can handle multiple things simultaneously (like rendering text, checking errors, and playing sound in an editor
+
+******************************************************************************************************************************************************************************************************    
+
 import java.util.Scanner;
 
 void main(String[] args) {
