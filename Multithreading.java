@@ -22,8 +22,8 @@ thread2.start();
 }
 
 //////////////
-
-public class Count implements Runnable {
+ 
+public class Count extends Thread  {
 
     String text;
 
