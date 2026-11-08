@@ -3,6 +3,8 @@ When you create a custom class that extends Thread, both methods relate directly
 🚀 start() is Inherited: You get it automatically from the built-in Thread class. Call it (myObject.start()) to launch a brand-new thread.
 
 🔄 run() is Overridden: You define your custom task inside public void run() so the new thread knows what code to execute.   
+
+"When we extend Thread, our class gets the start() method. When we call t1.start(), Java creates a new thread, and that new thread automatically executes the run() method."    
     
     
 
