@@ -1,3 +1,9 @@
+PURPOSE OF USING MULTITHREADING : 
+
+1- Without multithreading: Tasks are executed one after another (sequentially).
+
+2- With multithreading: Multiple tasks can execute concurrently, allowing them to make progress at the same time.
+
 When you create a custom class that extends Thread, both methods relate directly to your class
 
 🚀 start() is Inherited: You get it automatically from the built-in Thread class. Call it (myObject.start()) to launch a brand-new thread.
