@@ -1,8 +1,9 @@
-Parent member	Child's responsibility
-Abstract method	Must implement (if concrete).
-Non-abstract method	Automatically inherits it.
-Constructor with arguments	Must call an appropriate parent constructor using super(...).
-No-argument constructor	Java automatically calls super() if you don't explicitly call another constructor.
+Parent member	                              Child's responsibility
+  
+Abstract method                            	Must implement (if concrete).
+Non-abstract method                       	Automatically inherits it.
+Constructor with arguments                 	Must call an appropriate parent constructor using super(...).
+No-argument constructor                    	Java automatically calls super() if you don't explicitly call another constructor.
 
 ***********************************************************************************************************************************************************
   
