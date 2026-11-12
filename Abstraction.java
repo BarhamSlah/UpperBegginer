@@ -1,3 +1,11 @@
+Parent member	Child's responsibility
+Abstract method	Must implement (if concrete).
+Non-abstract method	Automatically inherits it.
+Constructor with arguments	Must call an appropriate parent constructor using super(...).
+No-argument constructor	Java automatically calls super() if you don't explicitly call another constructor.
+
+***********************************************************************************************************************************************************
+  
 1- You can have abstract method only in abstract class.
 ​2- You can not create object from abstract class.
 but you can reference object form abstract class.
